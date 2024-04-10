@@ -1,20 +1,22 @@
 # A Kernel Seedling
-TODO: intro
+A kernel seedling counts the number of processes being run on your laptop or computer.
 
 ## Building
 ```shell
-TODO: cmd for build
+make
 ```
 
 ## Running
 ```shell
-TODO: cmd for running binary
+sudo insmod proc_count.c
+cat /proc/*proc_virtual_file_name
 ```
-TODO: results?
+TODO: results? 
 
 ## Cleaning Up
 ```shell
-TODO: cmd for cleaning the built binary
+sudo rmmod proc_count.c
+make clean
 ```
 
 ## Testing
