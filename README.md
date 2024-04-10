@@ -9,7 +9,7 @@ make
 ## Running
 ```shell
 sudo insmod proc_count.c
-cat /proc/*proc_virtual_file_name
+cat /proc/count
 ```
 TODO: results? 
 
